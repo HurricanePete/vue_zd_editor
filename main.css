@@ -1,0 +1,50 @@
+form.search {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form.search > input {
+    width: 66.666%;
+    height: 1rem;
+    padding: 1rem;
+    font-size: medium;
+}
+
+form.search > button {
+    width: 15%;
+}
+
+section.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.wrapper > div.editor {
+    width: 45%;
+    text-align: left;
+    padding: 1rem;
+}
+
+div.editor > p, textarea {
+    width: 100%;
+    margin: 0 auto;
+    font-size: medium;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font: inherit;
+}
+
+.divider {
+    border-right: 2px solid black;
+}
